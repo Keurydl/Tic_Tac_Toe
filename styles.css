@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:linear-gradient(blue,rgb(250, 19, 19),white);
+    height: 100vh; 
+    margin: 0;
+    background-size: cover; 
+}
+
+
+#game-container {
+    width: 300px;
+    margin: 50px auto;
+}
+
+#board {
+    display: grid;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(11, 255, 11);
+}
+

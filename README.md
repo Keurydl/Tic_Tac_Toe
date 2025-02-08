@@ -2,7 +2,7 @@
 
 This is a Tic Tac Toe (Three in a Row) game developed in JavaScript, HTML, and CSS. The game allows a human player to compete against a computer-controlled opponent.
 
-## Project Structure 
+## 🔺Project Structure 🔺
 
 - **Game.html**: The game interface where Tic Tac Toe is played.
 - **Tic-Tac-Toe.html**: The home page where the user enters their name.
